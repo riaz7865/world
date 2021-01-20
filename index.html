@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ <script type="text/javascript" src="js_new2.js"> </script>
+<style type="text/css">
+
+
+body {
+margin:0px;
+padding:0px;
+
+
+
+}
+
+
+
+</style>
+
+
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body oncontextmenu="return false">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    
+    <div class="container-fluid">
+   <h5> <a class="navbar-brand" href="#" style="color:blue;">Minira <span style="color:green;">garments</span></a></h5>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+    <li class="nav-item">
+    <a class="nav-link  active" id="home-link" aria-current="page" onclick="showHome()">Home</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " id="item-link" onclick="showItem()">Item</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " id="contact-link" onclick="showContact()">contact</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link " id="about-link" onclick="showAbout()">About</a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+    
+    
+    
+     <!-- start courasel -->
+     
+     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+     <ol class="carousel-indicators">
+     <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+     <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+     <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+     </ol>
+     <div class="carousel-inner" style="">
+     <div class="carousel-item active">
+     <img src="https://lh3.googleusercontent.com/bWzTPK0hSypPHD1Hc1GSjZVdpvOteOTH8uLnH1_VlJWkr4F5bfMT6vy6dUAYcn_iwR4fYL9vj_sJ9B_Rf_zOk0FUDSRGxpywjVJnu8IYkh2hS-v_Yv9qMoLnTv6hpsXVtdi5B0RqLw=w600-h315-p-k" height="300"class="d-block w-100" alt="..." >
+     <div class="carousel-caption d-none d-md-block">
+     <h5>First slide label</h5>
+     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+     </div>
+     </div>
+     
+     
+     <div class="carousel-item">
+     <img src="https://lh3.googleusercontent.com/mIo76hht9T2VlI-OJGolHb1x4Sy8gIhVukNZV9VsF87leNUTBvumUDJgrhXeGJmCeFdH-q8vnUHe59Qzavp5zrqEKmenwgEStaKPZzW7FWth--awZLrsbJVXISOQhd32_m7jI2konQ=w600-h315-p-k" height="300"class="d-block w-100" alt="...">
+     <div class="carousel-caption d-none d-md-block">
+     <h5>Second slide label</h5>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     </div>
+     </div>
+     
+     
+     <div class="carousel-item">
+     <img src="https://lh3.googleusercontent.com/mIo76hht9T2VlI-OJGolHb1x4Sy8gIhVukNZV9VsF87leNUTBvumUDJgrhXeGJmCeFdH-q8vnUHe59Qzavp5zrqEKmenwgEStaKPZzW7FWth--awZLrsbJVXISOQhd32_m7jI2konQ=w600-h315-p-k" height="300" class="d-block w-100" alt="...">
+     <div class="carousel-caption d-none d-md-block">
+     <h5>Third slide label</h5>
+     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+     </div>
+     </div>
+     </div>
+     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+     </a>
+     <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+     </a>
+     </div>
+     
+   
+     
+      <!-- end courasel -->
+      
+      
+      
+      
+      
+      
+      
+      
+  <div id="main-panel"> 
+     
+     
+<!--start home tab -->      
+      
+<div class="panel " id="home">      
+      <div class="section-1">
+      
+      
+      <div class="container text-center"> 
+      <h1 class="heading-1">Monira Dress</h1>
+      <h1 class="heading-2">Moni Master</h1>
+      <p class="para-1">You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrapping element for positioning, so
+      Comfortable dressing is the new way of being cool and classy. Nowadays, we dress less to please others but more to feel the best in our skin. Getting inspired with the idea of comfortable dressing, we, Benzer Creations, introduce garments whose fabrics, designs, looks and styles denote sheer comfort. Our business existence as a manufacturer and wholesaler is widely acknowledged for quality manufacturing apparels as per requirements of customers. In our small business journey, we have managed to make our identity stronger in the market by maximizing garments retailing, trading and wholesaling businesses of customers.
+      
+      
+      
+      </p>
+      </div>
+      
+      </div>
+      
+      
+   <!-- start product section under section 1-->   
+      
+      <div class="container-fluid p-div"  style="background:rgb(173,255,47);" >
+    
+     <div class="row">
+      <div style="text-align:center; border-right:1px solid black; padding:2%;" class="col-md-4 col-12">
+      <h4>Our work</h4>
+      <h2 style="text-align:center;">Most special Profucts</h2>
+      </div>
+      <div class="col-md-8 col-12 " style="padding:2%;">
+      <p>Exporter, Manufacturer, Supplier & Wholesaler to Boys Printed Capri,kids Black Capri,Floral Printed Capri 
+      Boys Stylish Cargo Capri, Boys White Capri, etc.,
+      </p>
+      
+       <input type="button" class="btn btn-danger" value="Products">
+      
+      </div>
+      
+      </div>
+      
+      
+      
+      
+      
+      
+      
+  <div class="row m-auto " id="img-div">
+      
+  <!--    
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-12 m-auto">
+      <div class="m-auto" style="background:#f5f5f5;width:10rem;">
+      
+      <div class="card mx-auto my-4" style="width:9rem; height:16rem;">
+      <img src="https://lh3.googleusercontent.com/mIo76hht9T2VlI-OJGolHb1x4Sy8gIhVukNZV9VsF87leNUTBvumUDJgrhXeGJmCeFdH-q8vnUHe59Qzavp5zrqEKmenwgEStaKPZzW7FWth--awZLrsbJVXISOQhd32_m7jI2konQ=w600-h315-p-k"class="card-img-top" style="height:170px; margin-bottom:0; padding-bottom:0;"alt="...">
+      <div class="card-body py-1 my-0">
+      <h5 class="card-title text-center" style="padding-top:15px;padding-bottom:0;margin-0;">Baba suit</h5>
+      <p class=" text-center" style="padding-0; margin:0;line-height:2px;">Rs 1000</p>
+      
+      </div>
+      
+      </div>
+      
+      </div>
+      </div> 
+      
+   <!--   
+      
+      <div class="col-lg-3 col-md-3 col-sm-3 col-12 m-auto" style="">
+      <div class="m-auto" style="background:#f5f5f5;width:10rem;">
+      
+      <div class="card mx-auto my-4" style="width:9rem; height:16rem;">
+      <img src="product2.jpg"class="card-img-top" style="height:170px; margin-bottom:0; padding-bottom:0;"alt="...">
+      <div class="card-body py-1 my-0">
+      <h5 class="card-title text-center" style="padding-top:15px;padding-bottom:0;margin-0;">Baba suit</h5>
+      <p class=" text-center" style="padding-0; margin:0;line-height:2px;">Rs 3000</p>
+      
+      </div>
+      
+      </div>
+      
+      </div>
+      </div> 
+      
+      
+      
+      
+      
+      
+      <div class="col-lg-3 col-md-3 col-sm-3 col-12 m-auto">
+      <div class="m-auto" style="background:#f5f5f5;width:10rem;">
+      
+      <div class="card mx-auto my-4" style="width:9rem; height:16rem;">
+      <img src="product3.jpg"class="card-img-top" style="height:170px; margin-bottom:0; padding-bottom:0;"alt="...">
+      <div class="card-body py-1 my-0">
+      <h5 class="card-title text-center" style="padding-top:15px;padding-bottom:0;margin-0;">Baba suit</h5>
+      <p class=" text-center" style="padding-0; margin:0;line-height:2px;">Rs 1000</p>
+      
+      </div>
+      
+      </div>
+      
+      </div>
+      </div> 
+      
+      
+      <div class="col-lg-3 col-md-3 col-sm-3 col-12 m-auto">
+      <div class="m-auto" style="background:#f5f5f5;width:10rem;">
+      
+      <div class="card mx-auto my-4" style="width:9rem; height:16rem;">
+      <img src="product4.jpg"class="card-img-top" style="height:170px; margin-bottom:0; padding-bottom:0;"alt="...">
+      <div class="card-body py-1 my-0">
+      <h5 class="card-title text-center" style="padding-top:15px;padding-bottom:0;margin-0;">Baba suit</h5>
+      <p class=" text-center" style="padding-0; margin:0;line-height:2px;">Rs 1000</p>
+      
+      </div>
+      
+      </div>
+      
+      </div>
+      </div> 
+      
+      
+
+      
+      
+      
+      
+      
+      
+       
+      
+      -->
+      
+      </div>                   
+      </div>       
+                     
+                    
+                            
+      
+ <!-- end product section -->     
+      
+      
+      
+      <!-- start  section2 -->  
+      
+      <div class="section-2 m-0 p-0 " >
+      <div class="container-fluid old">
+      
+      <div class="d-flex justify-content-end">
+      
+      <div class="d-flex flex-column m-4">
+      <h1 class="heading-1">Monira dresses</h1>
+      <p class="para">Mix and match multiple content types to create the card you need, or thro
+      </p>
+      <input type="button" class="btn btn-danger" value="show">
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      <!-- End section 2-->  
+      <!--
+      <div style="height:400px; width:100%; background:red; padding:0;">
+      
+      <div class="m-3 bg-warning">
+      <h1>About Us</h1>
+      <h5>know more about us</h5>
+      </div>
+
+      
+      </div>
+      
+      -->
+      <!-- start our team section -->
+      <div class="ourteam p-2 m-0 bg-warning" style="color:white;">
+      
+      <div class="container text-center">
+      <div class="">
+      <h1>About Us</h1>
+      <h5>know more about us</h5>
+      </div>
+      
+      <div class="row teamsetting" style="color:white;">
+      
+     
+      
+      
+      
+      <!--start 1st image of our team -->
+      <div class="col-lg-4 col-sm-4 col-10 d-block mx-auto " style="color:white;">
+    
+      
+      <div style="border:3px solid white; height:80%; width:90%;" class="m-4 p-3">
+     
+      <h2>Best Quality</h2>
+      <p class=" ">This is the proprietor of Monies dresses</p> 
+      </div>
+      
+  
+     
+      </div>
+      
+      
+      <!--start 2nd image of our team -->
+    <div class="col-lg-4 col-sm-4 col-10 d-block mx-auto " style="color:white;">
+    
+    
+    <div style="border:3px solid white; height:80%; width:90%;" class="m-4 p-3">
+    
+    <h2>Reasonable Price</h2>
+    <p class=" ">This is the proprietor of Monies dresses</p> 
+    </div>
+    
+    
+    
+    </div>
+      
+      
+      
+      <!--start 3rd image of our team -->
+   <div class="col-lg-4 col-sm-4 col-10 d-block mx-auto " style="color:white;">
+   
+   
+   <div style="border:3px solid white; height:80%; width:90%;" class="m-4 p-3">
+   
+   <h2>Supply in time</h2>
+   <p class=" ">This is the proprietor of Monies dresses</p> 
+   </div>
+   
+   
+   
+   </div>
+      
+      
+      
+     
+      
+      
+   
+   
+   
+   
+   
+        </div>
+   
+   </div>
+   </div>
+   <!-- end our team section --->
+   
+   
+   
+ 
+
+   
+ </div>  
+<!--end home tab -->   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+<!--start contact tab -->   
+<div class="panel p-5" id="contact" style="width:100%;">
+
+
+
+<div class="row" id="cdiv">
+
+
+</div>
+
+</div>
+
+<!--end contact tab -->   
+
+
+
+
+
+
+<!--start item tab -->   
+<div class="panel" id="item" style="width:100%;margin:0;">
+
+<section class="section-1">
+   
+   <div class="container"> 
+  <h1 class="heading-1">Our Product</h1>
+  
+  <p class="para-1">You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrapping element for positioning, so dropdowns in your navbar nav. Dropdown menus require a wrapping element for positioning, so
+</p>
+  </div>
+   
+   
+   
+   
+   <div class="container text-center p-0">
+       <div class="bg-light " style="color:blue"><h2>Monira Dress</h2>
+       
+       </div>
+       
+      </div>
+      </section> 
+      
+<div class="row" id="adiv">
+
+
+</div>
+
+
+
+
+<!---start all Newdesign section -->
+    
+    <section class="section-slider">
+    <div class="text-center"><h3>New Design</h3></div>
+    <div style="border:1px solid blue;margin:auto; width:80%;"> </div>
+    
+    <div class="slider" id="slide">
+ 
+
+    
+    
+    
+    
+    </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+  <!---end New design section -->
+
+
+
+
+
+
+
+</div>
+
+<!--end item tab -->   
+
+
+
+
+
+
+
+
+
+
+
+<!--start product details tab -->   
+<div id="product-details" style="width:100%;">
+
+<div id="p-div">
+
+
+
+</div>
+
+
+</div>
+
+<!--end product details tab -->  
+
+
+
+<!--start about tab -->   
+<div class="panel" id="about" style="width:100%; margin:0; padding:0;">
+<div class="container m-5">
+
+<div class="p-5">
+<h1 class="">Profile details</h1>
+<p>
+
+It's not been a very long time to the business presence of Benzer Creations in this competitive field of manufacturing garments but huge business popularity makes it look decades have passed to our company. We invest in the best fabrics to make different sorts of apparels for people. Our clothing collection is dominated by the factors of high comfort, style and design. We have taken experienced designers on board to bring forth a unique line of garments. Whether its our Kids Printed Capri, Stylish Cargo Capri, Boys Cargo Capri, Boys Floral Printed Capri or Boys Denim Capri, we ensure to keep the style chic and classy so that wearers could feel the modern vibe. We keep our stylish garments in a large quantity so as to benefit wholesalers, retailers and traders involved in garment business. 
+
+
+</p>
+</div>
+
+<div class="p-5" style="border:2px solid black;">
+<div class="p-1 " id="im-div" style="">
+
+
+</div>
+</div>
+
+</div>
+</div>
+<!--end about tab -->   
+
+
+
+   
+   
+ </div>  
+  <!--end main-tab -->    
+   
+   
+   <!-- start  section3 -->  
+   
+   <div class="section-3 m-0 p-4 bg-danger">
+   <div class="container p-5  sec3-div " style="height:60%; width:100%; color:green;">
+   <h3>Md Saifuddin (Sales manager)</h3>
+   <h5 class="m-3">Address</h5>
+   <p class="m-3">Malipara,Kankhuli road, PO-Bartala,Kolkata - 700018 Westbengal</p>
+   
+   <h5>Call/Whatsup</h5>
+   <p> <a href="tel:+918961163717 "><i class="fas fa-phone"></i>(+91)8961163717</a><br>
+   </p>
+   
+   <h5>Email / website</h5>
+   <p> <a href="mailto: pmd.saifuddin@gmail.com"><i class="fas fa-envelope"></i>pmd.saifuddin@gmail.com</a><br>
+   
+  
+   <input type="button" class="btn btn-danger" value="show">
+   
+   
+   </div>
+   </div>
+   
+   <!-- End section 3-->
+   
+   
+    
+      
+      
+      
+      
+      
+      
+  
+      
+      
+      
+      
+      
+      
+      <!-- start footer1     style="background:#f70009;">     ---->
+      <section class="on-ftr b-color bg-light p-4" style="">
+      <div class="container">
+      <div class="row">
+      
+      
+      <div class="col-md-3">
+      <div class="ftr-header">
+      <h3><span style="color:pink">Quick</span>Link</h3>
+      </div>
+      
+      <div class="ftr-des">
+      <dd>Home</dd>
+      <dd>Contact</dd>
+      <dd>Search</dd>
+      <dd>Profile</dd>
+      
+      
+      
+      </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-md-3">
+      <div class="ftr-header">
+      <h3><span style="color:pink">Extra</span>Link</h3>
+      </div>
+      
+      <div class="ftr-des">
+      <dd>Product</dd>
+      <dd>Offer</dd>
+      <dd>Special</dd>
+      <dd>Shops</dd>
+      
+      
+      
+      </div>
+      </div>
+      
+      
+      
+      
+      
+      <div class="col-md-3">
+      <div class="ftr-header">
+      <h3><span style="color:pink">Stay</span>Tuned</h3>
+      </div>
+      
+      <div class="ftr-des">
+      
+      <form>
+      <div class="form-group mb-2">
+      
+      <input type="email" placeholder="email" class="form-control">
+      </div>
+      
+      <button class="btn btn-primary mb-2" style="background:pink;">Submit</button>
+      
+      
+      </form>
+      </div>
+      </div>
+      
+      
+      
+      
+      </div>
+      </div>
+      </section>
+      <!-- end footer1 ------>
+      
+      <div id="test">
+      
+      </div>
+      
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    
+    <script type="text/javascript">
+    
+    showHome();
+   
+    
+    
+    
+    </script>
+    
+  </body>
+</html>
