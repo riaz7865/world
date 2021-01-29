@@ -4,7 +4,7 @@
 
 //Product model create
   
-/*  
+
   product=[
    {'design':'N12',
   ' material':'zins',
@@ -57,7 +57,8 @@
   
   ];
   
-  */
+ 
+/*
   
   
   product=[
@@ -91,7 +92,7 @@
   
  ] 
   
-  
+ */ 
   
  //create function for show product model
   
