@@ -10,7 +10,7 @@ $(document).ready(function(){
 
      // redirect_uri of the project
 
-     var redirect_uri = "http://localhost/googledrive/uploadFile/upload.html";
+     var redirect_uri = "https://riaz7865.github.io/world/upload.html;
 
      // scope of the project
 
